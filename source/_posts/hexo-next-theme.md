@@ -15,7 +15,7 @@ date: 2018-03-27 23:36:15
 updated: 2018-03-27 23:36:15
 ---
 
-\> *最近又折腾了一下, 更换了主题*
+> *最近又折腾了一下博客, 更换了主题*
 <!-- more -->
 
 ## 主题
@@ -166,9 +166,9 @@ $ git submodule deinit <submodule-name>
 
 ## 看板娘
 
-### 简易版**[hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)**
+### 简易版[hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)
 
-### 功能版**[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)**
+### 功能版[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)
 
 以[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)为例, 先fork项目到自己的github仓库, 方便后续自己定制
 
