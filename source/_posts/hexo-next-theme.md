@@ -1,5 +1,5 @@
 ---
-title: 博客折腾记录
+title: 博客折腾小记
 author: Gao先生
 toc: false
 top: false
