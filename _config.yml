@@ -103,9 +103,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
-
+  type: 'git'
+  repo: git@github.com:gaoyuexit/gaoyuexit.github.io.git
+  branch: master
 
 search:
   path: search.xml
