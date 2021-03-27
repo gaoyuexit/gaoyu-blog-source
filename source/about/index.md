@@ -6,12 +6,13 @@ comments: true
 ---
 
 
+<br />
+<br />
+Hey, I’m gaoyu:
+<br />
+<br />
 
-Hey, I’m Gaoyu:
-
-
-
-👨‍💻‍: 半吊子程序员, 做过iOS、小程序、Flutter。
+👨‍💻‍: 半吊子程序员, 会一点点iOS、小程序、Flutter, 逆向。
 
 😄: 喜欢呆在小小的安静角落, 静静思考, 记录有趣的发现。
 
@@ -21,7 +22,8 @@ Hey, I’m Gaoyu:
 
 🌚: 轻度强迫症、理想主义、懒癌患者、Dota云玩家...
 
-
-
+<br />
+<br />
+<br />
 To be continue...
 
