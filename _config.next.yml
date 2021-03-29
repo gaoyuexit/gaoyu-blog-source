@@ -22,7 +22,7 @@ minify: false
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
-  #head: source/_data/head.swig
+  head: source/_data/head.swig
   #header: source/_data/header.swig
   #sidebar: source/_data/sidebar.swig
   #postMeta: source/_data/post-meta.swig
@@ -947,7 +947,9 @@ vendors:
   # Valine
   # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js
-  valine:
+  # 增加博主、小伙伴标识以及浏览器图标 //魔改版 Valine.min.js
+  # https://zhixuan666.github.io/posts/b17cfc64/ 美化valine
+  valine: //cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
 
   # Gitalk
   # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
