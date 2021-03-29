@@ -220,3 +220,7 @@ document.addEventListener('pjax:error', function () {});
 
 [Hexo博客部署Pjax局部刷新](https://inkss.cn/blog/80b5f235/)
 
+[Valine添加博主标签及评论微信、QQ通知](https://icarus.hclonely.com/posts/409d3090/)
+
+[hclonely blog](https://blog.hclonely.com/)
+
