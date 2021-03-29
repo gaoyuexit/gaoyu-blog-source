@@ -570,8 +570,8 @@ comments:
   # Available values: tabs | buttons
   style: tabs
   # Choose a comment system to be displayed by default.
-  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
+  active: utterances
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -612,24 +612,13 @@ changyan:
   appkey:
   #post_meta_order: 0
 
-# Valine
-# For more information: https://valine.js.org, https://github.com/xCss/Valine
-valine:
+utterances:
   enable: true
-  appid: kDEeIs12GHboNSFKDoAmWkK1-gzGzoHsz
-  appkey: lVAQOyuMlCw5FkEVWCtRKl5R
-  notify: true # Mail notifier
-  verify: false # Verification code
-  placeholder: 请写下您的评论，如果您想及时收到回复并被告知，请在上方填写您的昵称与个人邮箱 # Comment box placeholder
-  avatar: wavatar # Gravatar style
-  guest_info: nick,mail,link # Custom comment header
-  pageSize: 15 # Pagination size
-  language: # Language, available values: en, zh-cn
-  visitor: true # Article reading statistic
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
-  recordIP: true # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
-  #post_meta_order: 0
+  repo: gaoyuexit/gaoyu-blog-utterances # Github repository name
+  # Available values: pathname | url | title | og:title
+  issue_term: title
+  # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
+  theme: github-light
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
