@@ -260,17 +260,14 @@ BUNDLE_PATH: "vendor/bundle"
 
 此时的目录结构为: 
 
-![rubymine_folder](./optimize-compilation-speed/rubymine_folder.png)
-
-
+{% asset_img rubymine_folder.png 目录结构 %}
 
 ### RubyMine设置
 
 RubyMine打开`imy-bin`文件夹, 设置`Edit Configurations`
 
-![rubymine_gem_config](./optimize-compilation-speed/rubymine_gem_config.png)
-
-![rubymine_gem_bundler](./optimize-compilation-speed/rubymine_gem_bundler.png)
+{% asset_img rubymine_gem_config.png 配置config %}
+{% asset_img rubymine_gem_bundler.png 配置bundler %}
 
 ### 调试
 
@@ -278,8 +275,7 @@ RubyMine打开`imy-bin`文件夹, 设置`Edit Configurations`
 
 点击小爬虫, 进行调试: 
 
-![rubymine_breakpoint](./optimize-compilation-speed/rubymine_breakpoint.png)
-
+{% asset_img rubymine_breakpoint.png 断点 %}
 
 
 至此, 我们就可以通过调试, 然后看看`cocoapods-imy-bin`作者的实现思路以及每一个命令的都做了哪些事情~

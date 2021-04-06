@@ -40,7 +40,14 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
+
+# 文章资源文件夹 https://hexo.io/zh-cn/docs/asset-folders.html
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
+
+
 relative_link: false
 future: true
 highlight:
