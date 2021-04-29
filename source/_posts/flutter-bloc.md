@@ -23,7 +23,7 @@ BLoC【Business Logic Component】设计模式是`paolo soares` 和 `cong hui` �
 
 BloC设计模式是Flutter解决状态管理的一种方案, 今天笔者将使用[bloc](https://github.com/felangel/bloc)(实现该设计模式且比较流行的库)来构建一个工程中完整且常见的页面,  作为Flutter初学者, 希望以此和大家交流, 共同进步,   你可以在[这里](https://github.com/juliver-d/bloc_example)找到该项目的完整代码~
 
-<img src='https://github.com/juliver-d/bloc_example/blob/master/source/bloc_page.gif?raw=true' alt='效果' width='30%'>
+{% asset_img bloc_page.gif 300 效果%}
 
 # BLoC
 
@@ -33,7 +33,7 @@ BloC设计模式是Flutter解决状态管理的一种方案, 今天笔者将使�
 
 如果你是Web开发者, 你肯定熟悉React+Redux、如果你是iOS开发者, 你可能会使用过RxSwift+ReactorKit,  如果你熟悉单项数据流开发模式, 那么你对BLoC就非常容易上手, BLoC就是用reactive programming方式构建应用, 一个由流构成的完全异步的世界。从而达到界面与业务分离的逻辑。
 
-<img src='https://github.com/juliver-d/bloc_example/blob/master/source/bloc_architecture_full.png?raw=true' alt='架构'>
+{% asset_img bloc_architecture_full.png 架构%}
 
 通过bloc[官网](https://bloclibrary.dev/#/architecture?id=presentation-layer)介绍的流程图来看, 它将应用分为了三层: 展示层, 逻辑层, 数据层. 而通过流程来看, bloc逻辑层作为三层的中枢, 处理三个层级之间的交流.
 
