@@ -18,13 +18,12 @@ updated: 2020-04-29 16:58:41
 # 前言
 
 > Flutter和SwiftUI是声明式和响应式编程在移动端的典范, 使用它们开发复杂业务, 状态管理是绕不过去的话题. 
-
-BLoC【Business Logic Component】设计模式是`paolo soares` 和 `cong hui` 在2018年`Google dartconf`上提出的，具体设计思想和于传统开发方式的比较, 可以参考[YouTube演示视频](https://www.youtube.com/watch?v=PLHln7wHgPE)
 <!-- more -->
+BLoC【Business Logic Component】设计模式是`paolo soares` 和 `cong hui` 在2018年`Google dartconf`上提出的，具体设计思想和于传统开发方式的比较, 可以参考[YouTube演示视频](https://www.youtube.com/watch?v=PLHln7wHgPE)
+
 BloC设计模式是Flutter解决状态管理的一种方案, 今天笔者将使用[bloc](https://github.com/felangel/bloc)(实现该设计模式且比较流行的库)来构建一个工程中完整且常见的页面,  作为Flutter初学者, 希望以此和大家交流, 共同进步,   你可以在[这里](https://github.com/juliver-d/bloc_example)找到该项目的完整代码~
 
-<img src='https://github.com/juliver-d/bloc_example/blob/master/source/bloc_page.gif' alt='page' width='25%'>
-{% asset_img bloc_page.gif 效果 [10] [15] %}
+<img src='https://github.com/juliver-d/bloc_example/blob/master/source/bloc_page.gif?raw=true' alt='效果' width='30%'>
 
 # BLoC
 
@@ -34,8 +33,7 @@ BloC设计模式是Flutter解决状态管理的一种方案, 今天笔者将使�
 
 如果你是Web开发者, 你肯定熟悉React+Redux、如果你是iOS开发者, 你可能会使用过RxSwift+ReactorKit,  如果你熟悉单项数据流开发模式, 那么你对BLoC就非常容易上手, BLoC就是用reactive programming方式构建应用, 一个由流构成的完全异步的世界。从而达到界面与业务分离的逻辑。
 
-![bloc_architecture_full](https://github.com/juliver-d/bloc_example/blob/master/source/bloc_architecture_full.png)
-{% asset_img bloc_architecture_full.png 架构 %}
+<img src='https://github.com/juliver-d/bloc_example/blob/master/source/bloc_architecture_full.png?raw=true' alt='架构'>
 
 通过bloc[官网](https://bloclibrary.dev/#/architecture?id=presentation-layer)介绍的流程图来看, 它将应用分为了三层: 展示层, 逻辑层, 数据层. 而通过流程来看, bloc逻辑层作为三层的中枢, 处理三个层级之间的交流.
 
