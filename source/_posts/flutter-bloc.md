@@ -10,8 +10,8 @@ categories: Flutter
 tags:
   - Flutter
   - Bloc
-date: 2020-04-29 16:58:41
-updated: 2020-04-29 16:58:41
+date: 2020-03-22 16:58:41
+updated: 2020-03-22 16:58:41
 ---
 <meta name="referrer" content="no-referrer" />
 
