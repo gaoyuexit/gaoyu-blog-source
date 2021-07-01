@@ -439,6 +439,22 @@ class SubmitBloc extends Bloc<SubmitEvent, NetworkState> {
 }
 ```
 
+提交现在还有一个小问题: 
+如果用户快速点击`提交按钮`多次, 就会重复提交多次, 这不是我们愿意看到的;
+所以我们可以通过`节流(throttle)`的方式来避免, 引入`rxdart`
+
+```dart
+@override
+Stream<Transition<SubmitEvent, NetworkState>> transformEvents(Stream<SubmitEvent> events, transitionFn) {
+  return super.transformEvents(events.throttleTime(Duration(milliseconds: 500)), transitionFn);
+  /*
+  防抖（debounce） 所谓防抖，就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间。(连续输入搜索)
+  节流（throttle） 所谓节流，就是指连续触发事件但是在 n 秒中只执行一次函数。节流会稀释函数的执行频率。(快速点击)
+  */
+}
+
+```
+
 ## 校验
 
 点击返回按钮的时候, 我们需要判断需要提交的数据是否变化了, 我们在该页面请求成功的State中, 添加一个初始化提交模型
